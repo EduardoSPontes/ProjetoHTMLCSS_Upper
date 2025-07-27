@@ -214,27 +214,30 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  align-items: stretch;
 }
 
 .card-projeto {
   background-color: #1e1e1e;
   border: 2px solid #00ffe1;
   border-radius: 16px;
-  width: 480px;
+  width: 600px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 255, 225, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  
 }
 
 .card-projeto img,
 .card-projeto video {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
+  width: 400px;
+  height: 200px;
+  border-radius: 11px;
   margin-bottom: 15px;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 255, 225, 0.1);
